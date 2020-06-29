@@ -22,8 +22,6 @@ In this project, I ask the question – if a recruiter were faced with adversari
 
 I came across [Markovify](https://github.com/jsvine/markovify) – a simple Markov Chain sentence generator – and decided to try spoofing resume bullet points like the ones above. My training dataset was scraped from Jumpstart [aside: see [this post](https://shomil.me/explore-jumpstart/) for a small accompanying data analysis portion of this project]. After pre-processing & training on some 75,000 bullet points, I spoofed about 3,000 generated bullet points. I then spun up a quick iOS App to simulate the environment of a hypothetical recruiter (disclaimer: I have no idea what actually happens in the recruiting room, but I assume something relatively close to this sort of speed-reading happens).
 
-Check out the finished project below! The [iOS App](https://github.com/shomilj/resume-generation-ios) also on GitHub.
-
 <video muted controls width="40%" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
     <source src="https://shomil.me/resume-generation/recruiter.mov" type="video/mp4">
 </video>
